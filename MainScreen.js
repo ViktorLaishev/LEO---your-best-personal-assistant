@@ -205,7 +205,7 @@ export default function MainScreen() {
 //         headers: {
 //           "Content-Type": "application/json",
 //           Authorization:
-//             "Bearer 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",
+//             "Bearer sk- ...",
 //         },
 //         body: JSON.stringify({
 //           model: "gpt-3.5-turbo", // Choose the appropriate model
