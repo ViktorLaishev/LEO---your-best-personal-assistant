@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "project-leo",
+    "slug": "project-leo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      ["expo-font",
+      {
+        "fonts": [
+          "assets/fonts/Lato-Bold.ttf",
+          "assets/fonts/Lato-BoldItalic.ttf",
+          "assets/fonts/Lato-Italic.ttf",
+          "assets/fonts/Lato-Light.ttf",
+          "assets/fonts/Lato-LightItalic.ttf",
+          "assets/fonts/Lato-Medium.ttf",
+          "assets/fonts/Lato-Regular.ttf",
+          "assets/fonts/Lato-Semibold.ttf",
+          "assets/fonts/Lato-Thin.ttf"
+        ]
+      }]
+    ]
+  }
+}
